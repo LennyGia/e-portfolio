@@ -1,0 +1,125 @@
+#title {
+    font-size: 30px;
+    margin-left: 25px;
+}
+#title, .navigation {
+    justify-content: center;
+    justify-self: left;
+    padding: 50px 25px;
+}
+#word_logo, #download_logo {
+    width: 50px;
+}
+#herzlich_wilkommen {
+    font-size: 35px;
+    max-height: 50px;
+    align-self: end;
+}
+#wilkommen_text {
+    font-size: 23px;
+}
+.title_div {
+    display: grid;
+    grid-template-columns: 6fr auto auto auto auto auto auto auto;
+}
+.navigation {
+    font-size: 25px;
+    justify-content: center;
+    justify-self: left;
+}
+.navigation:hover {
+    background-color: #384252;
+}
+.content {
+    min-height: calc(100vh - 200px);
+    display: grid;
+    justify-content: center;
+    color: #000000;
+}
+.all_wrapper {
+    min-height: calc(100vh - 200px);
+    margin: 0px 25%;
+    line-height: 25px;
+}
+.content_page_1 {
+    display: grid;
+    justify-content: center;
+    color: #000000;
+    font-size: 20px;
+    min-height: 100px;
+}
+.aufgabe {
+    font-style: italic;
+    margin-bottom: 25px;
+}
+.ueberaufgabe {
+    font-weight: 600;
+    margin: 10px 0px;
+}
+.loesung {
+    margin-bottom: 50px;
+}
+.image_container {
+    display: grid;
+    place-items: center;
+}
+.image_container {
+    display: grid;
+    place-items: left;
+}
+.image {
+    width: 700px;
+    margin-bottom: 50px;
+}
+
+.titel_content {
+    margin-top: 50px;
+    font-size: 25px;
+}
+.content_text {
+    text-align: center;
+}
+
+.buttons_wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.button_links {
+    color: white;
+    text-decoration: none;
+}
+.button_wrap {
+    justify-content: center;
+    /* align-content: center; */
+    display: grid;
+    margin-top: 25px;
+    font-size: 25px;
+}
+.buttons:hover {
+    color: #959595;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+header {
+    min-height: 100px;
+}
+header, footer {
+    background-color: #000000;
+}
+footer {
+    min-height: 80px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 500px) {
+    .navigation {
+        display: none;
+    }
+}
