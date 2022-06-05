@@ -79,7 +79,6 @@
 .content_text {
     text-align: center;
 }
-
 .buttons_wrap {
     display: grid;
     grid-template-columns: 1fr 1fr;
