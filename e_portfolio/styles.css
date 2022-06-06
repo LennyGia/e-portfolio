@@ -21,6 +21,13 @@
 #plakat_iperka {
     width: 290px;
 }
+#froschtext_besser {
+    margin-bottom: 0;
+}
+#notion_link {
+    text-decoration: underline;
+    color: blue;
+}
 .title_div {
     display: grid;
     grid-template-columns: 6fr auto auto auto auto auto auto auto;
