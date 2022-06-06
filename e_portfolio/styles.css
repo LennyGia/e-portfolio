@@ -32,6 +32,10 @@
     text-decoration: underline;
     color: blue;
 }
+#swissanwalt {
+    text-decoration: underline;
+    color: blue;
+}
 .title_div {
     display: grid;
     grid-template-columns: 6fr auto auto auto auto auto auto auto;
@@ -91,6 +95,10 @@
 }
 .content_text {
     text-align: center;
+}
+.inhaltsverzeichnis_link {
+    text-decoration: underline;
+    color: blue;
 }
 .buttons_wrap {
     display: grid;
